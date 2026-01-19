@@ -40,28 +40,33 @@ These images shows the virtual machine settings That I used to  sucessfully inst
 
 
 ### Windows Server Installation
+
+Here, I installed the Windows Server 2022 Server Manager Dashboard that I used to configure the local server and install roles and features as part of this Active Directory home lab.
+
 Server Manager <img width="1631" height="917" alt="Screenshot 2026-01-18 165104" src="https://github.com/user-attachments/assets/aa644ad5-da95-4f63-bbf3-00f19a3c5142" />
 
-Installed Windows Server and verified system configuration using Server Manager.
 
 
 ### Creating Static IP
-<img width="866" height="649" alt="Screenshot 2026-01-18 171249" src="https://github.com/user-attachments/assets/be1d1c17-9739-4131-b8d9-b3025465fd4b" />
 
-- Created a static IP for the windows server so that the client machine can connect to the server reliably 
+This is where I manually configured a static IP address on the server to ensure that the client machine can consistently locate and connect to the Domain Controller within the Active Directory.
+
+<img width="1631" height="917" alt="Screenshot 2026-01-18 171249" src="https://github.com/user-attachments/assets/be1d1c17-9739-4131-b8d9-b3025465fd4b" />
+
+ 
 
 
 
 
 ### Active Directory Installation
-<img width="862" height="648" alt="Screenshot 2026-01-18 174640" src="https://github.com/user-attachments/assets/9cc7967c-d4a6-4a5d-902c-2d195739dc98" />
+<img width="1631" height="917" alt="Screenshot 2026-01-18 174640" src="https://github.com/user-attachments/assets/9cc7967c-d4a6-4a5d-902c-2d195739dc98" />
 
 - Installed Active Directory Domain Services and DNS.
 
 
 
 ### Domain Controller Configuration
-<img width="844" height="654" alt="Screenshot 2026-01-18 174857" src="https://github.com/user-attachments/assets/eef3798b-1a53-4d62-acc6-7411ebc7b2be" />
+<img width="1631" height="917" alt="Screenshot 2026-01-18 174857" src="https://github.com/user-attachments/assets/eef3798b-1a53-4d62-acc6-7411ebc7b2be" />
 
 
 Promoted the server to a domain controller and created a new Active Directory domain.
