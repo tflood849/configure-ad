@@ -5,7 +5,7 @@
 # Active Directory Home Lab
 
 ## Objective
-This project demonstrates hands-on experience building and managing a basic Active Directory environment similar to what is used in enterprise and academic IT environments.
+This project demonstrates my hands-on experience building and managing a basic Active Directory environment similar to what is used in corporate enterprises and academic IT environments.
 
 ## Tools & Technologies
 - VirtualBox
@@ -27,22 +27,14 @@ The lab consists of:
 - Domain-joined client management
 - User authentication and troubleshooting
 
-## Lab Sections
-- Environment Setup
-- User & Organizational Unit Management
-- Password Resets & Account Unlocks
-- Group Policy Configuration
-- Client Verification
-- Help Desk Scenarios
-
 ---
 
 ## Environment Setup
 
 ### Virtual Lab Configuration
-![VirtualBox Setup](screenshots/virtualbox-overview.png)
+![VirtualBox Setup]<img width="1919" height="1079" alt="Screenshot 2026-01-18 164808" src="https://github.com/user-attachments/assets/30ff0dd0-192e-466f-b3b8-67fbaf357864" />
 
-Configured a virtual environment using VirtualBox with a Windows Server domain controller and a Windows client machine.
+I Configured 2 virtual environments using VirtualBox with a Windows Server domain controller - Windows 2022 and a Windows client machine - Windows 11.
 
 ### Windows Server Installation
 ![Server Manager](screenshots/server-manager.png)
