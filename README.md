@@ -29,14 +29,18 @@ The lab consists of:
 
 <br />
 
-<img width="1631" height="917" alt="Screenshot 2026-01-18 164808" src="https://github.com/user-attachments/assets/30ff0dd0-192e-466f-b3b8-67fbaf357864" />
 
-- I Configured 2 virtual environments using VirtualBox with a Windows Server domain controller - Windows 2022 and a Windows client machine - Windows 11.
+These images shows the virtual machine settings That I used to  sucessfully install and configure the domain controller and the client machine, including memory allocation, CPU resources, storage, and networking.
+
+<img width="1631" height="917" alt="Screenshot 2026-01-18 164808" src="https://github.com/user-attachments/assets/30ff0dd0-192e-466f-b3b8-67fbaf357864" />
+<img width="1631" height="917" alt="Screenshot 2026-01-19 135457" src="https://github.com/user-attachments/assets/b3fcbafe-7c97-4d07-82a8-79bc45af55a3" />
+
+
 
 
 
 ### Windows Server Installation
-Server Manager <img width="866" height="651" alt="Screenshot 2026-01-18 165104" src="https://github.com/user-attachments/assets/aa644ad5-da95-4f63-bbf3-00f19a3c5142" />
+Server Manager <img width="1631" height="917" alt="Screenshot 2026-01-18 165104" src="https://github.com/user-attachments/assets/aa644ad5-da95-4f63-bbf3-00f19a3c5142" />
 
 Installed Windows Server and verified system configuration using Server Manager.
 
