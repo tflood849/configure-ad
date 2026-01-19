@@ -4,9 +4,6 @@
 
 # Active Directory Home Lab
 
-## Author
-Terry Flood
-
 ## Objective
 This project demonstrates hands-on experience building and managing a basic Active Directory environment similar to what is used in enterprise and academic IT environments.
 
@@ -15,13 +12,11 @@ This project demonstrates hands-on experience building and managing a basic Acti
 - Windows Server 2022
 - Windows 10
 - Active Directory Domain Services (AD DS)
-- DNS
-- Group Policy
 
 ## Lab Overview
 The lab consists of:
 - One Windows Server acting as a Domain Controller
-- One Windows 10 client joined to the domain
+- One Windows 11 client joined to the domain
 - Centralized authentication and management using Active Directory
 
 ## Skills Demonstrated
