@@ -32,6 +32,7 @@ The lab consists of:
 ## Environment Setup
 
 ### Virtual Lab Configuration
+
 <img width="1919" height="1079" alt="Screenshot 2026-01-18 164808" src="https://github.com/user-attachments/assets/30ff0dd0-192e-466f-b3b8-67fbaf357864" />
 
 I Configured 2 virtual environments using VirtualBox with a Windows Server domain controller - Windows 2022 and a Windows client machine - Windows 11.
@@ -44,6 +45,9 @@ Server Manager <img width="1019" height="766" alt="Screenshot 2026-01-18 165104"
 Installed Windows Server and verified system configuration using Server Manager.
 
 
+### Creating Static IP
+<img width="1019" height="764" alt="Screenshot 2026-01-18 171249" src="https://github.com/user-attachments/assets/be1d1c17-9739-4131-b8d9-b3025465fd4b" />
+- Created a static IP for the windows server so that the client machine can connect to the server reliably 
 
 ### Active Directory Installation
 ![AD Installed](screenshots/ad-installed.png)
