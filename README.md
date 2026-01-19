@@ -32,14 +32,18 @@ The lab consists of:
 ## Environment Setup
 
 ### Virtual Lab Configuration
-![VirtualBox Setup]<img width="1919" height="1079" alt="Screenshot 2026-01-18 164808" src="https://github.com/user-attachments/assets/30ff0dd0-192e-466f-b3b8-67fbaf357864" />
+<img width="1919" height="1079" alt="Screenshot 2026-01-18 164808" src="https://github.com/user-attachments/assets/30ff0dd0-192e-466f-b3b8-67fbaf357864" />
 
 I Configured 2 virtual environments using VirtualBox with a Windows Server domain controller - Windows 2022 and a Windows client machine - Windows 11.
 
+
+
 ### Windows Server Installation
-![Server Manager](screenshots/server-manager.png)
+Server Manager <img width="1019" height="766" alt="Screenshot 2026-01-18 165104" src="https://github.com/user-attachments/assets/aa644ad5-da95-4f63-bbf3-00f19a3c5142" />
 
 Installed Windows Server and verified system configuration using Server Manager.
+
+
 
 ### Active Directory Installation
 ![AD Installed](screenshots/ad-installed.png)
