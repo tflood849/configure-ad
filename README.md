@@ -1,56 +1,72 @@
-<p align="center">
-<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
-</p>
+# Active Directory Home Lab
 
-<h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+## Author
+Terry Flood
 
+## Objective
+This project demonstrates hands-on experience building and managing a basic Active Directory environment similar to what is used in enterprise and academic IT environments.
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
-
-<h2>Environments and Technologies Used</h2>
-
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Active Directory Domain Services
-- PowerShell
-
-<h2>Operating Systems Used </h2>
-
+## Tools & Technologies
+- VirtualBox
 - Windows Server 2022
-- Windows 10 (21H2)
+- Windows 10
+- Active Directory Domain Services (AD DS)
+- DNS
+- Group Policy
 
-<h2>High-Level Deployment and Configuration Steps</h2>
+## Lab Overview
+The lab consists of:
+- One Windows Server acting as a Domain Controller
+- One Windows 10 client joined to the domain
+- Centralized authentication and management using Active Directory
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+## Skills Demonstrated
+- Windows Server installation and configuration
+- Active Directory Domain Services setup
+- Domain controller promotion
+- DNS configuration
+- Domain-joined client management
+- User authentication and troubleshooting
 
-<h2>Deployment and Configuration Steps</h2>
+## Lab Sections
+- Environment Setup
+- User & Organizational Unit Management
+- Password Resets & Account Unlocks
+- Group Policy Configuration
+- Client Verification
+- Help Desk Scenarios
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+---
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+## Environment Setup
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+### Virtual Lab Configuration
+![VirtualBox Setup](screenshots/virtualbox-overview.png)
+
+Configured a virtual environment using VirtualBox with a Windows Server domain controller and a Windows client machine.
+
+### Windows Server Installation
+![Server Manager](screenshots/server-manager.png)
+
+Installed Windows Server and verified system configuration using Server Manager.
+
+### Active Directory Installation
+![AD Installed](screenshots/ad-installed.png)
+
+Installed Active Directory Domain Services and DNS.
+
+### Domain Controller Configuration
+![Domain Controller](screenshots/domain-controller.png)
+
+Promoted the server to a domain controller and created a new Active Directory domain.
+
+### Client Joined to Domain
+![Client Joined](screenshots/client-domain-join.png)
+
+Joined a Windows 10 client machine to the domain.
+
+### Domain User Login
+![Domain Login](screenshots/domain-user-login.png)
+
+Verified domain authentication by logging in with a domain user account.
+
