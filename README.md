@@ -35,7 +35,7 @@ The lab consists of:
 
 <img width="1919" height="1079" alt="Screenshot 2026-01-18 164808" src="https://github.com/user-attachments/assets/30ff0dd0-192e-466f-b3b8-67fbaf357864" />
 
-I Configured 2 virtual environments using VirtualBox with a Windows Server domain controller - Windows 2022 and a Windows client machine - Windows 11.
+- I Configured 2 virtual environments using VirtualBox with a Windows Server domain controller - Windows 2022 and a Windows client machine - Windows 11.
 
 
 
@@ -47,15 +47,22 @@ Installed Windows Server and verified system configuration using Server Manager.
 
 ### Creating Static IP
 <img width="1019" height="764" alt="Screenshot 2026-01-18 171249" src="https://github.com/user-attachments/assets/be1d1c17-9739-4131-b8d9-b3025465fd4b" />
+
 - Created a static IP for the windows server so that the client machine can connect to the server reliably 
 
-### Active Directory Installation
-![AD Installed](screenshots/ad-installed.png)
 
-Installed Active Directory Domain Services and DNS.
+
+
+### Active Directory Installation
+<img width="1015" height="762" alt="Screenshot 2026-01-18 174640" src="https://github.com/user-attachments/assets/9cc7967c-d4a6-4a5d-902c-2d195739dc98" />
+
+- Installed Active Directory Domain Services and DNS.
+
+
 
 ### Domain Controller Configuration
-![Domain Controller](screenshots/domain-controller.png)
+<img width="1040" height="769" alt="Screenshot 2026-01-18 174857" src="https://github.com/user-attachments/assets/eef3798b-1a53-4d62-acc6-7411ebc7b2be" />
+
 
 Promoted the server to a domain controller and created a new Active Directory domain.
 
